@@ -5,9 +5,13 @@
 ## Data
 Gold-standard corpus (manually corrected), used as a training dataset for the models.
 
+The data can be found at `./data/**/*xml` in ALTO format and follow [SegmOnto segmentation standards](https://segmonto.github.io). All data is produced using the eScriptorium interface and cataloged on [HTR-United](https://htr-united.github.io). The ALTO files have undergone manual correction, and the segmentation and transcription from the HTR are currently under review.
+
 ## Corpus 
 
-Corpus-A
+* Corpus-A 
+
+ -file in csv : [`Corpus_A.csv`](.Corpus/Corpus_A.csv)
 
 | Identifier | Segmentation | Transcription | Page | Author | Title | Printer | Date | Place | Library & Call number |
 |-----------|--------------|---------------|------|--------|-------|---------|------|-------|----------------------|
@@ -26,6 +30,38 @@ Corpus-A
 | Hyperius_1-Tim_C2_001 | gold | gold | 12 | Hyperius Andreas | Commentarii in epistolas D. Pauli ad Timotheum | Christoph Froschauer | 1582 | Zurich | [Zürich ZB – C 85 \| G](https://doi.org/10.3931/e-rara-62382) |
 | Total |  |  | **588** |  |  |  |  |  |  |
 
+---
 
-* more information in the [`Corpus_A.csv`](.Corpus/Corpus_A.csv)
+##  File Nomenclature
+
+### 1. **Directory Naming Convention**  
+- Format: `[exegete's name]_[name of epistle (abbreviation of Vulgate)]_[optional suffix : C__chapter's_number (if it concerne one precise chapter)  or test (for the PHD student dataset)]`  
+  - Example:  
+    - `Aretius_1-Tim_001`  
+    - `Bucer_Eph_test`
+    - `Bullinger_1-Tim_C_2`
+
+### 2. **File Naming Convention**  
+- Format:
+ `from mdz [URN of the book]_[URN of the page].xml`  
+  - e.g. 
+    - `bsb10313792_00016.xml`
+`from e-rara [URN of the page].xml`
+  - e.g.
+    - `16892668.xml`
+
+## How to cite 
+
+```bibtex
+@misc{Goy_Pipeline_16thExegesis,
+  author={Floriane Goy, Noemi Schürmann, Benjamin Manig, Matteo Colombo },
+  title={Pipelines, Données TEI et autres formats},
+  version={1.0},
+  address={Genève},
+  publisher={université de Genève},
+  year={2023-2026},
+  url={https://github.com/16thExegesisDH/PipeLineThm},
+}
+```
+
 
