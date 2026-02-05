@@ -93,14 +93,14 @@ Bullinger_1-Tim_C_2
 ## How to cite 
 
 ```bibtex
-@misc{Goy_Pipeline_16thExegesis,
+@misc{Goy_HTR-Corpus-A_16thExegesis,
   author={Floriane Goy, Noemi Schürmann, Benjamin Manig, Matteo Colombo },
-  title={Pipelines, Données TEI et autres formats},
+  title={HTR of Latin printed book from 16th Century},
   version={1.0},
   address={Genève},
   publisher={université de Genève},
   year={2023-2026},
-  url={https://github.com/16thExegesisDH/PipeLineThm},
+  url={https://github.com/16thExegesisDH/HTR-Corpus-A},
 }
 ```
 
