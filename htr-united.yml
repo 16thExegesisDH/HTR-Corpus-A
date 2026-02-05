@@ -202,7 +202,7 @@ license:
 - name: CC-BY 4.0
   url: https://creativecommons.org/licenses/by/4.0/
 production-software: eScriptorium + Kraken
-project-name: L'exegese Paulinnienne
+project-name: L'exegese Paulinienne
 project-website: https://www.unige.ch/ihr/fr/accueil/exegese-paulinienne/
 schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 script:
@@ -215,11 +215,11 @@ title: Corpus-A
 transcription-guidelines: Our data follow SegmOnto segmentation standards (https://segmonto.github.io).
 url: https://github.com/16thExegesisDH/HTR-Corpus-A
 volume:
-- count: 
+- count: 746815
   metric: characters
-- count: 
+- count: 485
   metric: files
-- count: 
+- count: 18815
   metric: lines
-- count: 
+- count: 3246
   metric: regions
