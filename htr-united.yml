@@ -211,7 +211,7 @@ script-type: only-typed
 time:
   notAfter: '1400'
   notBefore: '1600'
-title: Lambertus
+title: Corpus-A
 transcription-guidelines: Our data follow SegmOnto segmentation standards (https://segmonto.github.io).
 url: https://github.com/16thExegesisDH/HTR-Corpus-A
 volume:
