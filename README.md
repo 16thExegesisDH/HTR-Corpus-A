@@ -5,13 +5,10 @@
 ## Data
 Gold-standard corpus (manually corrected), used as a training dataset for the models.
 
-<<<<<<< Updated upstream
-=======
 ## Corpus 
 
 Corpus-A
 
->>>>>>> Stashed changes
 | Identifier | Segmentation | Transcription | Page | Author | Title | Printer | Date | Place | Library & Call number |
 |-----------|--------------|---------------|------|--------|-------|---------|------|-------|----------------------|
 | Lefevre_1-Tim_C2_001 | gold | gold | 3 | Jacques Lefèvre d'Etaples | Commentarii in epistolas d. Pauli | Anonymus | 1512 | Paris | [Regensburg SB – 999/2Script.801](https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11059254-9) |
@@ -29,8 +26,6 @@ Corpus-A
 | Hyperius_1-Tim_C2_001 | gold | gold | 12 | Hyperius Andreas | Commentarii in epistolas D. Pauli ad Timotheum | Christoph Froschauer | 1582 | Zurich | [Zürich ZB – C 85 \| G](https://doi.org/10.3931/e-rara-62382) |
 | Total |  |  | **588** |  |  |  |  |  |  |
 
-<<<<<<< Updated upstream
-more information on [`Corpus_A.csv`](./Corpus/Corpus_A.csv)
-=======
-* more information in the [`Corpus_A.csv`](./Corpus_A.csv)
->>>>>>> Stashed changes
+
+* more information in the [`Corpus_A.csv`](.Corpus/Corpus_A.csv)
+
