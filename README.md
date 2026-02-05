@@ -32,24 +32,6 @@ file in csv : [`Corpus A.csv`](corpus/Corpus_A.csv)
 
 ---
 
-##  File Nomenclature
-
-### 1. **Directory Naming Convention**  
-- Format: `[exegete's name]_[name of epistle (abbreviation of Vulgate)]_[optional suffix : C__chapter's_number (if it concerne one precise chapter)  or test (for the PHD student dataset)]`  
-  - Example:  
-    - `Aretius_1-Tim_001`  
-    - `Bucer_Eph_test`
-    - `Bullinger_1-Tim_C_2`
-
-### 2. **File Naming Convention**  
-- Format:
- `from mdz [URN of the book]_[URN of the page].xml`  
-  - e.g. 
-    - `bsb10313792_00016.xml`
-`from e-rara [URN of the page].xml`
-  - e.g.
-    - `16892668.xml`
-
 # File Nomenclature Guide
 
 ## 1. Directory Naming Convention
