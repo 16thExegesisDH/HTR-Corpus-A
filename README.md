@@ -11,7 +11,7 @@ The data can be found at `./data/**/*xml` in ALTO format and follow [SegmOnto se
 
 * Corpus-A 
 
- -file in csv : [`Corpus_A.csv`](.Corpus/Corpus_A.csv)
+file in csv : [`Corpus A.csv`](corpus/Corpus_A.csv)
 
 | Identifier | Segmentation | Transcription | Page | Author | Title | Printer | Date | Place | Library & Call number |
 |-----------|--------------|---------------|------|--------|-------|---------|------|-------|----------------------|
