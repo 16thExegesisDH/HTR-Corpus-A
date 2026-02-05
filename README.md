@@ -50,6 +50,79 @@ The data can be found at `./data/**/*xml` in ALTO format and follow [SegmOnto se
   - e.g.
     - `16892668.xml`
 
+# File Nomenclature Guide
+
+## 1. Directory Naming Convention
+
+```
+[exegete's name]_[epistle abbreviation]_[optional suffix]
+```
+
+### Components 
+
+| Component | Description | Examples |
+|-----------|-------------|----------|
+| **Exegete's name** | Commentator name | `Aretius`, `Bucer`, `Bullinger` |
+| **Epistle** | Abbreviated Latin Vulgate name | `1-Tim`, `Eph`, `Rm` |
+| **Optional suffix** | Additional specification | `C_2`, `01`, `test` |
+
+### Optional Suffix Types
+
+- **`C_[chapter number]`** → For commentaries focusing on a single chapter
+  - Example: `C_2` (Chapter 2)
+  
+- **`test`** → For PhD student dataset
+  - Example: `test`
+
+- **`[number]`** →  for iteration of the same commentary with the same author
+  - Example: `01`, `02`
+---
+
+### Directory Examples
+
+```
+Aretius_1-Tim 
+	└─Aretius commentary on 1 Timothy
+
+Aretius_1-Tim_01
+   └─ Aretius commentary on 1 Timothy, version 1
+
+Bucer_Eph_test
+   └─ Bucer commentary on Ephesians, test dataset
+
+Bullinger_1-Tim_C_2
+   └─ Bullinger commentary on 1 Timothy, Chapter 2
+```
+---
+##  2. File Naming Convention
+
+### Source: MDZ (Münchener Digitalisierungs Zentrum)
+
+**Format:**
+```
+[URN of book]_[URN of page].xml
+```
+**Example:**
+```xml
+bsb10313792_00016.xml
+bsb10313792_00017.xml
+bsb10313792_00018.xml
+```
+---
+### Source: e-rara
+
+**Format:**
+```
+[URN of page].xml
+```
+**Example:**
+```xml
+16892668.xml
+16892669.xml
+16892670.xml
+```
+---
+
 ## How to cite 
 
 ```bibtex
