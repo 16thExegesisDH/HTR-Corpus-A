@@ -78,31 +78,16 @@ Bullinger_1-Tim_C_2
 ---
 ##  2. File Naming Convention
 
-### Source: MDZ (Münchener Digitalisierungs Zentrum)
+* Source: MDZ (Münchener Digitalisierungs Zentrum) : [URN of book]_[URN of page].xml
+* Source: e-rara : [URN of page].xml
 
-**Format:**
-```
-[URN of book]_[URN of page].xml
-```
-**Example:**
-```xml
-bsb10313792_00016.xml
-bsb10313792_00017.xml
-bsb10313792_00018.xml
-```
----
-### Source: e-rara
+### File example 
 
-**Format:**
-```
-[URN of page].xml
-```
-**Example:**
-```xml
-16892668.xml
-16892669.xml
-16892670.xml
-```
+| Source | Pattern | Example |
+|--------|---------|---------|
+| **MDZ** | `[book]_[page].xml` | `bsb10313792_00016.xml` |
+| **e-rara** | `[page].xml` | `16892668.xml` |
+
 ---
 
 ## How to cite 
