@@ -5,6 +5,24 @@ authors:
   - project-manager
   - quality-control
   surname: Goy
+  - name: Benjamin
+  orcid: 0009-0009-0879-4080
+  roles:
+  - transcriber
+  - quality-control
+  surname: Manig 
+  - name: Matteo
+  orcid: 
+  roles:
+  - transcriber
+  - quality-control
+  surname: Colombo
+  - name: Noemi
+  orcid: 0009-0005-9812-7169
+  roles:
+  - transcriber
+  - quality-control
+  surname: Schürmann
 characters:
   members:
   - i
@@ -197,13 +215,13 @@ hands:
   count: '1'
   precision: exact
 language:
-- eng
+- lat
 license:
 - name: CC-BY 4.0
   url: https://creativecommons.org/licenses/by/4.0/
 production-software: eScriptorium + Kraken
 project-name: L'exegese Paulinienne
-project-website: https://www.unige.ch/ihr/fr/accueil/exegese-paulinienne/
+project-website: https://16thexegesisdh.github.io/ReformingPaul/
 schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 script:
 - iso: Latn
